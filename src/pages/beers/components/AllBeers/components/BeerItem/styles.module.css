@@ -1,0 +1,50 @@
+.containerStyle {
+  padding: 2em;
+  height: 200px;
+}
+
+.containerStyle:hover{
+    background-color: var(--primary-color-light);
+}
+
+.beerImgContainer {
+  margin-right: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.beerImg {
+  width: 2em;
+  object-fit: contain;
+}
+
+.title {
+  font-size: 1.3em;
+  font-weight: bold;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tagline {
+  font-size: 1em;
+  font-weight: bold;
+  color: #bf8715;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.description {
+  font-size: 1em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+

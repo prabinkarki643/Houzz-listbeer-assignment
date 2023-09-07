@@ -1,0 +1,22 @@
+.parent {
+  margin-top: 2em;
+}
+.tabContainer {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.tabContainer .tab {
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.tabContainer .tab[data-active="true"] {
+  font-weight: bold;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.tabResultView {
+  margin-top: 1em;
+}

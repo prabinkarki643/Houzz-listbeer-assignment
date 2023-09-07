@@ -1,0 +1,10 @@
+.houzzBeerImgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100px;
+    height: 100px;
+}
+.houzzBeerImgContainer .houzzBeerImg{
+    width:1.7em
+}

@@ -1,0 +1,8 @@
+.emptyBeer{
+    height:400px
+}
+
+.emptyBeer span.addBeer{
+    color:var(--primary-color);
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.appButton {
+  background-color: var(--primary-color-dark);
+  border-color: var(--primary-color-dark);
+}
+
+.appButton:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.textButton {
+  text-decoration: none;
+  color: grey;
+}
+
+.textButton:hover {
+  color: grey;
+}

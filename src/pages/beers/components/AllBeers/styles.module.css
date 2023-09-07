@@ -1,0 +1,8 @@
+.paginationContainer{
+    color: var(--primary-color);
+    padding-bottom: 2em;
+}
+
+.paginationContainer .loadMore{
+    cursor: pointer;
+}
